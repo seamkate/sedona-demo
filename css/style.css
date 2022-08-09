@@ -1,14 +1,14 @@
 @charset "UTF-8";
 @font-face {
   font-family: "PT Sans";
-  src: url("./fonts/ptsans.woff2") format("woff2"), url("/fonts/ptsans.woff") format("woff");
+  src: url("../fonts/ptsans.woff2") format("woff2"), url("../fonts/ptsans.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: "PT Sans";
-  src: url("./fonts/ptsansbold.woff2") format("woff2"), url("/fonts/ptsansbold.woff") format("woff");
+  src: url("../fonts/ptsansbold.woff2") format("woff2"), url("../fonts/ptsansbold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap; }
@@ -105,7 +105,7 @@ a {
     width: 100%;
     height: 57px;
     content: "";
-    background-image: url("img/intro-triangle.svg");
+    background-image: url("../img/intro-triangle.svg");
     background-position: center top;
     background-repeat: no-repeat; }
 
@@ -125,7 +125,7 @@ a {
     .page-header__link {
       width: 187px;
       height: 97px;
-      background-image: url("img/blue-triangle.svg");
+      background-image: url("../img/blue-triangle.svg");
       background-repeat: no-repeat;
       background-position: top; }
       .page-header__link .page-header__logo {
@@ -134,7 +134,7 @@ a {
 .page-header__image {
   text-align: center;
   margin-top: -28px;
-  background-image: url("img/back-image.jpg");
+  background-image: url("../img/back-image.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -334,7 +334,7 @@ a {
       content: "";
       width: auto;
       height: 37px;
-      background-image: url("img/trivial-triangle.svg");
+      background-image: url("../img/trivial-triangle.svg");
       background-position: center top;
       background-repeat: no-repeat;
       margin: 0 auto; } }
@@ -507,13 +507,13 @@ a {
       margin-bottom: 20px; } }
 
 .advantages__item-with-icon--motels::before {
-  background-image: url("img/icons/icon-house.svg"); }
+  background-image: url("../img/icons/icon-house.svg"); }
 
 .advantages__item-with-icon--souvenirs::before {
-  background-image: url("img/icons/icon-gift.svg"); }
+  background-image: url("../img/icons/icon-gift.svg"); }
 
 .advantages__item-with-icon--food::before {
-  background-image: url("img/icons/icon-burger.svg"); }
+  background-image: url("../img/icons/icon-burger.svg"); }
 
 .advantages__wrapper {
   padding-top: 26px;
@@ -616,11 +616,11 @@ a {
     background-position: center;
     background-repeat: no-repeat; }
   .social__item--twitter::before {
-    background-image: url("img/icons/icon-twitter.svg"); }
+    background-image: url("../img/icons/icon-twitter.svg"); }
   .social__item--facebook::before {
-    background-image: url("img/icons/icon-facebook.svg"); }
+    background-image: url("../img/icons/icon-facebook.svg"); }
   .social__item--youtube::before {
-    background-image: url("img/icons/icon-youtube.svg"); }
+    background-image: url("../img/icons/icon-youtube.svg"); }
   .social__item:hover {
     background-color: #669ec0; }
   .social__item:active {
@@ -896,10 +896,10 @@ a {
   position: absolute; }
 
 .feedback-form__input-tel::after {
-  background-image: url("img/icons/icon-phone.svg"); }
+  background-image: url("../img/icons/icon-phone.svg"); }
 
 .feedback-form__input-mail::after {
-  background-image: url("img/icons/icon-mail.svg"); }
+  background-image: url("../img/icons/icon-mail.svg"); }
 
 .input {
   box-sizing: border-box;
@@ -1026,7 +1026,7 @@ a {
   position: absolute;
   width: 56px;
   height: 56px;
-  background-image: url("img/icons/icon-tick.svg");
+  background-image: url("../img/icons/icon-tick.svg");
   background-repeat: no-repeat;
   background-position: center;
   top: -16px;
@@ -1237,7 +1237,7 @@ a {
 
 .video__block {
   background-color: #333333;
-  background-image: url("./img/video.jpg");
+  background-image: url("./../img/video.jpg");
   background-size: cover;
   width: 100%;
   height: 100%; }
